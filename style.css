@@ -6,6 +6,13 @@ body {
     background-color: #fff;
 }
 
+a {
+    font-family: sans-serif;
+    font-size: small;
+    text-decoration: none;
+    color: #444;
+}
+
 .nav {
     position: absolute;
     top: 10px;
@@ -13,9 +20,6 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
-    font-size: small;
-    color: #444;
 }
 
 .nav li {
@@ -30,7 +34,6 @@ body {
 
 .nav li button {
     padding: 5px 10px;
-    background-color: lightblue;
 }
 
 #logo {
@@ -53,4 +56,26 @@ input {
 form button {
     margin-top: 30px;
     padding: 8px 18px;
+}
+
+.footer {
+  list-style-type: none;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: #ececec;
+  font-family: sans-serif;
+  font-size: small;
+  color: #555;
+}
+
+ul, li {
+  display: inline-block;
+  padding: 7px 15px;
+  margin: 0;
+}
+
+.footer-right {
+  float: right;
 }
